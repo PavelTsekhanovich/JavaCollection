@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * @author Pavel Tsekhanovich 26/10/2018
- *
+ * <p>
  * On spliteratorWork( List<Double> lst ):
  * - using Spliterator add to List<Double> sqrts all square roots of items from lst ,if this item greater than 1
  * - use Math.sqrt(number) to find square root : Math.sqrt(4)-> 2.0
@@ -16,7 +16,7 @@ import java.util.List;
  * - print all items which >=2 from first part (use .println())
  * - print empty string
  * - print all items which >=10 from second part (use .println())
- *
+ * <p>
  * 4 4 4 100 100 100
  */
 

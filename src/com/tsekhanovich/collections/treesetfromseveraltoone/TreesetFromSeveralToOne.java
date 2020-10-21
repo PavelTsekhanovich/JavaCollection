@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 
 /**
  * @author Pavel Tsekhanovich 24/10/2018
- *
+ * <p>
  * Additional code,Soldier!
  * Given one input string as "1 2 3 4 5;6 7 8 9 10;11 12 13 14 15"(it's 3 lists)
  * 1.String[] sets consists of these lists. Add all elements from each list to correct set(see the comments in the code) sets[0] = {"1 2 3 4 5"} - its string and so on

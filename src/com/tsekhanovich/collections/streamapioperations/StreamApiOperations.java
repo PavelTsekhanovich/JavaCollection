@@ -6,10 +6,10 @@ import java.util.stream.Collectors;
 
 /**
  * @author Pavel Tsekhanovich 24/10/2018
- *
+ * <p>
  * Given a list of strings, return a list of the strings, omitting any string length 4 or more.
  * ["a", "bbb", "cccc", "dddddd"] → ["a", "bbb"]
- *
+ * <p>
  * its no long string
  */
 
@@ -20,6 +20,8 @@ public class StreamApiOperations {
     }
 
     private static List<String> noLongString(List<String> strings) {
-        return strings.stream().filter(e -> e.length() < 4).collect(Collectors.toList());
+        return strings.stream()
+                .filter(e -> e.length() < 4)
+                .collect(Collectors.toList());
     }
 }

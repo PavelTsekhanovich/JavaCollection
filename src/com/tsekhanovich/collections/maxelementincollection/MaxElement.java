@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * @author Pavel Tsekhanovich 24/10/2018
- *
+ * <p>
  * You need to find the max element in the collection. Just write your own implementation of the method
  */
 

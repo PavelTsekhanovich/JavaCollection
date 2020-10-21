@@ -12,7 +12,7 @@ import java.util.stream.Stream;
 
 /**
  * @author Pavel Tsekhanovich 24/10/2018
- *
+ * <p>
  * Additional code,son!
  * 1.Given a string as "1 2 3 4 5 6 ..." . String[] strings contains of element from given string ("1","2",..).
  * Add all elements from String[] strings to Set<Integer> set.
@@ -34,7 +34,9 @@ public class FilterHashset {
     }
 
     private static Set<Integer> removeAllNumbersMoreThan10(Set<Integer> set) {
-        return set.stream().filter(i -> i <= 10).collect(Collectors.toSet());
+        return set.stream()
+                .filter(i -> i <= 10)
+                .collect(Collectors.toSet());
     }
 
     private static List<Integer> getList() {

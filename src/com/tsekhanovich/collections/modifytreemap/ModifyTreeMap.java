@@ -5,11 +5,11 @@ import java.util.TreeMap;
 
 /**
  * @author Pavel Tsekhanovich 24/10/2018
- *
+ * <p>
  * Modify and return the given map as follows:
  * if the first key % 2 != 0 return sub map from First Key inclusive to FirstKey+4 inclusive in descending order
  * else return sub map from LastKey-4 inclusive to the Last Key inclusive in descending order
- *
+ * <p>
  * 1:one 2:two 3:three 4:four 5:five 6:six 7:seven
  */
 

@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 
 /**
  * @author Pavel Tsekhanovich 25/10/2018
- *
+ * <p>
  * On static List<String> changeList(List<String> list) method you must do:
  * - find the longest string in list
  * -if you use method max of class Collections : don't forget to implement a comparator for this method

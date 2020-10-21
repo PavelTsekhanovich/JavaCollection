@@ -6,10 +6,10 @@ import java.util.Set;
 
 /**
  * @author Pavel Tsekhanovich 26/10/2018
- *
+ * <p>
  * Symmetrical difference
  * https://en.wikipedia.org/wiki/Symmetric_difference﻿
- *
+ * <p>
  * 1.Find Symmetrical difference of sets on symDifference(Set<T> set1, Set<T> set2) and return it.
  * ﻿* For example ﻿sets:{1 2 3 4} {3 4 5 6} --> Symmetrical difference = ﻿{1 2 5 6}
  */

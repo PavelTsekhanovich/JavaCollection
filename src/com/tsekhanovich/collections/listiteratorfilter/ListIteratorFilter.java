@@ -26,6 +26,7 @@ public class ListIteratorFilter {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         List<String> list = new ArrayList<>(Arrays.asList(reader.readLine().split(" ")));
         ListIterator<String> listIterator = list.listIterator(list.size());
+
         while (listIterator.hasPrevious()) {
             String currentItem = listIterator.previous();
             if (currentItem.startsWith("J")) {

@@ -24,7 +24,8 @@ public class MapBasicsMethods2 {
     }
 
     private static SortedMap<String, Integer> wordCount(String[] strings) {
-        return new TreeMap<>(Arrays.stream(strings).collect(Collectors.toMap(k -> k, v -> 1, Integer::sum)));
+        return new TreeMap<>(Arrays.stream(strings).
+                collect(Collectors.toMap(k -> k, v -> 1, Integer::sum)));
     }
 
     private static void printMap(Map<String, Integer> map) {
